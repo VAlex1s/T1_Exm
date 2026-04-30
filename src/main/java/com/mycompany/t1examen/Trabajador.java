@@ -78,7 +78,7 @@ public class Trabajador {
         return sueldo + calcularBonos() - calcularPension();
     }
 
-    @Override
+   @Override
     public String toString() {
         return "Nombre: " + nombre +
                "\nDoc: " + numDoc +
