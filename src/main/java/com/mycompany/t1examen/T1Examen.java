@@ -55,14 +55,14 @@ public class T1Examen {
                     Trabajador t = new Trabajador(nombre, tipo, num, reg, pen, sueldo, hijos, noche);
                     ctrl.agregar(t);
 
-                    System.out.println("✔ Trabajador agregado correctamente");
+                    System.out.println(" Trabajador agregado correctamente");
 
                 } else if (opcion == 2) {
                     ctrl.listar();
                 }
 
             } catch (Exception e) {
-                System.out.println("❌ Error: " + e.getMessage());
+                System.out.println(" Error: " + e.getMessage());
                 sc.nextLine();
             }
 
